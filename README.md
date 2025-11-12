@@ -29,9 +29,22 @@ pip install -r requirements.txt
 
 ## 使用说明
 
-1. 新建文件夹 `images/`，将参考图(如cat.png)粘贴到 `images/` 文件夹中
-2. 在命令行中运行
-```bash
+本项目同时支持命令行（CLI）和图形界面（GUI）两种使用方式：
+
+### CLI
+
+1. 在项目根目录创建 `images/` 并放入参考图片（例如 `cat.png`）。
+2. 在终端中运行：
+```powershell
 python main.py cat.png
 ```
-3. 根据提示信息继续操作
+
+### GUI
+1. 启动 GUI：
+```powershell
+python gui.py
+```
+2. 简要说明：
+- 菜单 -> 文件 -> 打开文件：选择图片并预览；
+- 菜单 -> 设置 -> 修改当前配置：可在窗口内编辑配置并保存；
+- 菜单 -> 设置 -> 选择画板范围：交互式框选屏幕区域以更新 `screen_config`；
